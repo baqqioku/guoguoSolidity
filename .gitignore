@@ -1,0 +1,7 @@
+
+
+.states/
+
+contracts/*.json
+contracts/artifacts/
+
