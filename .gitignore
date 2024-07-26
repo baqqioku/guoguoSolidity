@@ -5,3 +5,4 @@
 contracts/*.json
 contracts/artifacts/
 
+node_modules
