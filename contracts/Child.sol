@@ -14,6 +14,6 @@ contract child is Parent {
 
     }
 
-    function setName
+
 
 }
