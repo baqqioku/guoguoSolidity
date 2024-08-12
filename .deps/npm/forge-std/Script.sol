@@ -4,8 +4,6 @@ pragma solidity >=0.6.0 <0.9.0;
 import "./Vm.sol";
 import "./console.sol";
 import "./console2.sol";
-import "forge-std/Test.sol";  // 导入 Foundry 的 Test.sol
-
 
 abstract contract Script {
     address constant private VM_ADDRESS =

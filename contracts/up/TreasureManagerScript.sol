@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol";
-import "openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol";
+import "@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol";
 
 import {Script, console } from "forge-std/Script.sol";
 import "./TreasureManager.sol";
@@ -16,7 +16,6 @@ contract TreasureManagerScript is Script {
     TreasureManager public treasureManager;
 
     function run() public {
-           //Vm vm = Vm(address(HEVM_ADDRESS));
 
          uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
          address deployerAddress = vm.addr(deployerPrivateKey);
