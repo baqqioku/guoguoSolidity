@@ -32,7 +32,7 @@ abstract contract E {
 }
 
 contract F is E {
-    function sum(uint a, uint b)public override pure returns (uinit){
+    function sum(uint a, uint b)public override pure returns (uint){
         return a+b;
     }
 }
